@@ -1,0 +1,1680 @@
+{
+  "roles": [
+    {
+      "id": 1,
+      "libelle": "CITOYEN"
+    },
+    {
+      "id": 2,
+      "libelle": "AGENT_MUNICIPALE"
+    },
+    {
+      "id": 3,
+      "libelle": "ADMIN"
+    }
+  ],
+  "utilisateurs": [
+    {
+      "id": 1,
+      "name": "Citoyen 1",
+      "telephone": "+221770000100",
+      "email": "citoyen1@example.com",
+      "password": "hashed_pwd_citoyen1",
+      "urlPhoto": "https://picsum.photos/id/100/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "name": "Citoyen 2",
+      "telephone": "+221770000101",
+      "email": "citoyen2@example.com",
+      "password": "hashed_pwd_citoyen2",
+      "urlPhoto": "https://picsum.photos/id/101/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 3,
+      "name": "Citoyen 3",
+      "telephone": "+221770000102",
+      "email": "citoyen3@example.com",
+      "password": "hashed_pwd_citoyen3",
+      "urlPhoto": "https://picsum.photos/id/102/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 4,
+      "name": "Citoyen 4",
+      "telephone": "+221770000103",
+      "email": "citoyen4@example.com",
+      "password": "hashed_pwd_citoyen4",
+      "urlPhoto": "https://picsum.photos/id/103/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 5,
+      "name": "Citoyen 5",
+      "telephone": "+221770000104",
+      "email": "citoyen5@example.com",
+      "password": "hashed_pwd_citoyen5",
+      "urlPhoto": "https://picsum.photos/id/104/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 6,
+      "name": "Citoyen 6",
+      "telephone": "+221770000105",
+      "email": "citoyen6@example.com",
+      "password": "hashed_pwd_citoyen6",
+      "urlPhoto": "https://picsum.photos/id/105/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 7,
+      "name": "Citoyen 7",
+      "telephone": "+221770000106",
+      "email": "citoyen7@example.com",
+      "password": "hashed_pwd_citoyen7",
+      "urlPhoto": "https://picsum.photos/id/106/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 8,
+      "name": "Citoyen 8",
+      "telephone": "+221770000107",
+      "email": "citoyen8@example.com",
+      "password": "hashed_pwd_citoyen8",
+      "urlPhoto": "https://picsum.photos/id/107/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 9,
+      "name": "Citoyen 9",
+      "telephone": "+221770000108",
+      "email": "citoyen9@example.com",
+      "password": "hashed_pwd_citoyen9",
+      "urlPhoto": "https://picsum.photos/id/108/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 10,
+      "name": "Citoyen 10",
+      "telephone": "+221770000109",
+      "email": "citoyen10@example.com",
+      "password": "hashed_pwd_citoyen10",
+      "urlPhoto": "https://picsum.photos/id/109/200/200",
+      "statut": "active",
+      "roleId": 1
+    },
+    {
+      "id": 11,
+      "name": "Agent 1",
+      "telephone": "+221770001100",
+      "email": "agent1@example.com",
+      "password": "hashed_pwd_agent1",
+      "urlPhoto": "https://picsum.photos/id/200/200/200",
+      "statut": "active",
+      "roleId": 2
+    },
+    {
+      "id": 12,
+      "name": "Agent 2",
+      "telephone": "+221770001101",
+      "email": "agent2@example.com",
+      "password": "hashed_pwd_agent2",
+      "urlPhoto": "https://picsum.photos/id/201/200/200",
+      "statut": "active",
+      "roleId": 2
+    },
+    {
+      "id": 13,
+      "name": "Agent 3",
+      "telephone": "+221770001102",
+      "email": "agent3@example.com",
+      "password": "hashed_pwd_agent3",
+      "urlPhoto": "https://picsum.photos/id/202/200/200",
+      "statut": "active",
+      "roleId": 2
+    },
+    {
+      "id": 14,
+      "name": "Agent 4",
+      "telephone": "+221770001103",
+      "email": "agent4@example.com",
+      "password": "hashed_pwd_agent4",
+      "urlPhoto": "https://picsum.photos/id/203/200/200",
+      "statut": "active",
+      "roleId": 2
+    },
+    {
+      "id": 15,
+      "name": "Agent 5",
+      "telephone": "+221770001104",
+      "email": "agent5@example.com",
+      "password": "hashed_pwd_agent5",
+      "urlPhoto": "https://picsum.photos/id/204/200/200",
+      "statut": "active",
+      "roleId": 2
+    },
+    {
+      "id": 16,
+      "name": "Admin 1",
+      "telephone": "+221770002100",
+      "email": "admin1@example.com",
+      "password": "hashed_pwd_admin1",
+      "urlPhoto": "https://picsum.photos/id/300/200/200",
+      "statut": "active",
+      "roleId": 3
+    },
+    {
+      "id": 17,
+      "name": "Admin 2",
+      "telephone": "+221770002101",
+      "email": "admin2@example.com",
+      "password": "hashed_pwd_admin2",
+      "urlPhoto": "https://picsum.photos/id/301/200/200",
+      "statut": "active",
+      "roleId": 3
+    }
+  ],
+  "typesSignalement": [
+    {
+      "id": 1,
+      "libelle": "Épave de véhicule"
+    },
+    {
+      "id": 2,
+      "libelle": "Décharge sauvage"
+    },
+    {
+      "id": 3,
+      "libelle": "Gravat"
+    },
+    {
+      "id": 4,
+      "libelle": "Autre"
+    }
+  ],
+  "signalements": [
+    {
+      "id": 1,
+      "dateSignalement": "2025-09-01T00:00:00",
+      "description": "Description du signalement 1",
+      "statut": "NOUVEAU",
+      "latitude": 14.664726,
+      "longitude": -17.469337,
+      "typeSignalementId": 2,
+      "citoyenId": 10
+    },
+    {
+      "id": 2,
+      "dateSignalement": "2025-09-02T00:00:00",
+      "description": "Description du signalement 2",
+      "statut": "EN_COURS",
+      "latitude": 14.687769,
+      "longitude": -17.468791,
+      "typeSignalementId": 1,
+      "citoyenId": 7
+    },
+    {
+      "id": 3,
+      "dateSignalement": "2025-09-03T00:00:00",
+      "description": "Description du signalement 3",
+      "statut": "RESOLU",
+      "latitude": 14.674202,
+      "longitude": -17.453162,
+      "typeSignalementId": 1,
+      "citoyenId": 3
+    },
+    {
+      "id": 4,
+      "dateSignalement": "2025-09-04T00:00:00",
+      "description": "Description du signalement 4",
+      "statut": "NOUVEAU",
+      "latitude": 14.697784,
+      "longitude": -17.477437,
+      "typeSignalementId": 1,
+      "citoyenId": 9
+    },
+    {
+      "id": 5,
+      "dateSignalement": "2025-09-05T00:00:00",
+      "description": "Description du signalement 5",
+      "statut": "NOUVEAU",
+      "latitude": 14.691819,
+      "longitude": -17.425464,
+      "typeSignalementId": 2,
+      "citoyenId": 3
+    },
+    {
+      "id": 6,
+      "dateSignalement": "2025-09-06T00:00:00",
+      "description": "Description du signalement 6",
+      "statut": "NOUVEAU",
+      "latitude": 14.615512,
+      "longitude": -17.473753,
+      "typeSignalementId": 3,
+      "citoyenId": 1
+    },
+    {
+      "id": 7,
+      "dateSignalement": "2025-09-07T00:00:00",
+      "description": "Description du signalement 7",
+      "statut": "EN_COURS",
+      "latitude": 14.644943,
+      "longitude": -17.485375,
+      "typeSignalementId": 3,
+      "citoyenId": 1
+    },
+    {
+      "id": 8,
+      "dateSignalement": "2025-09-08T00:00:00",
+      "description": "Description du signalement 8",
+      "statut": "NOUVEAU",
+      "latitude": 14.670092,
+      "longitude": -17.453507,
+      "typeSignalementId": 4,
+      "citoyenId": 4
+    },
+    {
+      "id": 9,
+      "dateSignalement": "2025-09-09T00:00:00",
+      "description": "Description du signalement 9",
+      "statut": "EN_COURS",
+      "latitude": 14.657765,
+      "longitude": -17.446146,
+      "typeSignalementId": 1,
+      "citoyenId": 5
+    },
+    {
+      "id": 10,
+      "dateSignalement": "2025-09-10T00:00:00",
+      "description": "Description du signalement 10",
+      "statut": "NOUVEAU",
+      "latitude": 14.640588,
+      "longitude": -17.459923,
+      "typeSignalementId": 2,
+      "citoyenId": 2
+    },
+    {
+      "id": 11,
+      "dateSignalement": "2025-09-11T00:00:00",
+      "description": "Description du signalement 11",
+      "statut": "NOUVEAU",
+      "latitude": 14.673806,
+      "longitude": -17.413092,
+      "typeSignalementId": 2,
+      "citoyenId": 1
+    },
+    {
+      "id": 12,
+      "dateSignalement": "2025-09-12T00:00:00",
+      "description": "Description du signalement 12",
+      "statut": "RESOLU",
+      "latitude": 14.657892,
+      "longitude": -17.48184,
+      "typeSignalementId": 4,
+      "citoyenId": 1
+    },
+    {
+      "id": 13,
+      "dateSignalement": "2025-09-13T00:00:00",
+      "description": "Description du signalement 13",
+      "statut": "EN_COURS",
+      "latitude": 14.679914,
+      "longitude": -17.443438,
+      "typeSignalementId": 1,
+      "citoyenId": 8
+    },
+    {
+      "id": 14,
+      "dateSignalement": "2025-09-14T00:00:00",
+      "description": "Description du signalement 14",
+      "statut": "NOUVEAU",
+      "latitude": 14.609732,
+      "longitude": -17.419655,
+      "typeSignalementId": 4,
+      "citoyenId": 5
+    },
+    {
+      "id": 15,
+      "dateSignalement": "2025-09-15T00:00:00",
+      "description": "Description du signalement 15",
+      "statut": "EN_COURS",
+      "latitude": 14.696312,
+      "longitude": -17.444631,
+      "typeSignalementId": 3,
+      "citoyenId": 2
+    },
+    {
+      "id": 16,
+      "dateSignalement": "2025-09-16T00:00:00",
+      "description": "Description du signalement 16",
+      "statut": "EN_COURS",
+      "latitude": 14.645962,
+      "longitude": -17.417729,
+      "typeSignalementId": 3,
+      "citoyenId": 5
+    },
+    {
+      "id": 17,
+      "dateSignalement": "2025-09-17T00:00:00",
+      "description": "Description du signalement 17",
+      "statut": "EN_COURS",
+      "latitude": 14.655938,
+      "longitude": -17.47423,
+      "typeSignalementId": 2,
+      "citoyenId": 7
+    },
+    {
+      "id": 18,
+      "dateSignalement": "2025-09-18T00:00:00",
+      "description": "Description du signalement 18",
+      "statut": "RESOLU",
+      "latitude": 14.662033,
+      "longitude": -17.425823,
+      "typeSignalementId": 4,
+      "citoyenId": 5
+    },
+    {
+      "id": 19,
+      "dateSignalement": "2025-09-19T00:00:00",
+      "description": "Description du signalement 19",
+      "statut": "NOUVEAU",
+      "latitude": 14.622121,
+      "longitude": -17.452369,
+      "typeSignalementId": 4,
+      "citoyenId": 8
+    },
+    {
+      "id": 20,
+      "dateSignalement": "2025-09-20T00:00:00",
+      "description": "Description du signalement 20",
+      "statut": "RESOLU",
+      "latitude": 14.680797,
+      "longitude": -17.499747,
+      "typeSignalementId": 2,
+      "citoyenId": 6
+    },
+    {
+      "id": 21,
+      "dateSignalement": "2025-09-21T00:00:00",
+      "description": "Description du signalement 21",
+      "statut": "RESOLU",
+      "latitude": 14.674591,
+      "longitude": -17.450439,
+      "typeSignalementId": 3,
+      "citoyenId": 10
+    },
+    {
+      "id": 22,
+      "dateSignalement": "2025-09-22T00:00:00",
+      "description": "Description du signalement 22",
+      "statut": "NOUVEAU",
+      "latitude": 14.6635,
+      "longitude": -17.4578,
+      "typeSignalementId": 2,
+      "citoyenId": 7
+    },
+    {
+      "id": 23,
+      "dateSignalement": "2025-09-23T00:00:00",
+      "description": "Description du signalement 23",
+      "statut": "NOUVEAU",
+      "latitude": 14.664274,
+      "longitude": -17.415505,
+      "typeSignalementId": 1,
+      "citoyenId": 3
+    },
+    {
+      "id": 24,
+      "dateSignalement": "2025-09-24T00:00:00",
+      "description": "Description du signalement 24",
+      "statut": "RESOLU",
+      "latitude": 14.605693,
+      "longitude": -17.468033,
+      "typeSignalementId": 2,
+      "citoyenId": 10
+    },
+    {
+      "id": 25,
+      "dateSignalement": "2025-09-25T00:00:00",
+      "description": "Description du signalement 25",
+      "statut": "EN_COURS",
+      "latitude": 14.621712,
+      "longitude": -17.480858,
+      "typeSignalementId": 2,
+      "citoyenId": 2
+    },
+    {
+      "id": 26,
+      "dateSignalement": "2025-09-26T00:00:00",
+      "description": "Description du signalement 26",
+      "statut": "EN_COURS",
+      "latitude": 14.694243,
+      "longitude": -17.427285,
+      "typeSignalementId": 4,
+      "citoyenId": 3
+    },
+    {
+      "id": 27,
+      "dateSignalement": "2025-09-27T00:00:00",
+      "description": "Description du signalement 27",
+      "statut": "NOUVEAU",
+      "latitude": 14.683933,
+      "longitude": -17.488286,
+      "typeSignalementId": 2,
+      "citoyenId": 9
+    },
+    {
+      "id": 28,
+      "dateSignalement": "2025-09-28T00:00:00",
+      "description": "Description du signalement 28",
+      "statut": "NOUVEAU",
+      "latitude": 14.645507,
+      "longitude": -17.486577,
+      "typeSignalementId": 4,
+      "citoyenId": 7
+    },
+    {
+      "id": 29,
+      "dateSignalement": "2025-09-29T00:00:00",
+      "description": "Description du signalement 29",
+      "statut": "NOUVEAU",
+      "latitude": 14.68427,
+      "longitude": -17.400064,
+      "typeSignalementId": 2,
+      "citoyenId": 5
+    },
+    {
+      "id": 30,
+      "dateSignalement": "2025-09-30T00:00:00",
+      "description": "Description du signalement 30",
+      "statut": "RESOLU",
+      "latitude": 14.648333,
+      "longitude": -17.423421,
+      "typeSignalementId": 3,
+      "citoyenId": 6
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "url": "https://picsum.photos/id/401/800/600",
+      "signalementId": 1
+    },
+    {
+      "id": 2,
+      "url": "https://picsum.photos/id/402/800/600",
+      "signalementId": 1
+    },
+    {
+      "id": 3,
+      "url": "https://picsum.photos/id/403/800/600",
+      "signalementId": 2
+    },
+    {
+      "id": 4,
+      "url": "https://picsum.photos/id/404/800/600",
+      "signalementId": 3
+    },
+    {
+      "id": 5,
+      "url": "https://picsum.photos/id/405/800/600",
+      "signalementId": 3
+    },
+    {
+      "id": 6,
+      "url": "https://picsum.photos/id/406/800/600",
+      "signalementId": 4
+    },
+    {
+      "id": 7,
+      "url": "https://picsum.photos/id/407/800/600",
+      "signalementId": 5
+    },
+    {
+      "id": 8,
+      "url": "https://picsum.photos/id/408/800/600",
+      "signalementId": 5
+    },
+    {
+      "id": 9,
+      "url": "https://picsum.photos/id/409/800/600",
+      "signalementId": 6
+    },
+    {
+      "id": 10,
+      "url": "https://picsum.photos/id/410/800/600",
+      "signalementId": 7
+    },
+    {
+      "id": 11,
+      "url": "https://picsum.photos/id/411/800/600",
+      "signalementId": 8
+    },
+    {
+      "id": 12,
+      "url": "https://picsum.photos/id/412/800/600",
+      "signalementId": 8
+    },
+    {
+      "id": 13,
+      "url": "https://picsum.photos/id/413/800/600",
+      "signalementId": 8
+    },
+    {
+      "id": 14,
+      "url": "https://picsum.photos/id/414/800/600",
+      "signalementId": 9
+    },
+    {
+      "id": 15,
+      "url": "https://picsum.photos/id/415/800/600",
+      "signalementId": 9
+    },
+    {
+      "id": 16,
+      "url": "https://picsum.photos/id/416/800/600",
+      "signalementId": 10
+    },
+    {
+      "id": 17,
+      "url": "https://picsum.photos/id/417/800/600",
+      "signalementId": 11
+    },
+    {
+      "id": 18,
+      "url": "https://picsum.photos/id/418/800/600",
+      "signalementId": 11
+    },
+    {
+      "id": 19,
+      "url": "https://picsum.photos/id/419/800/600",
+      "signalementId": 11
+    },
+    {
+      "id": 20,
+      "url": "https://picsum.photos/id/420/800/600",
+      "signalementId": 12
+    },
+    {
+      "id": 21,
+      "url": "https://picsum.photos/id/421/800/600",
+      "signalementId": 13
+    },
+    {
+      "id": 22,
+      "url": "https://picsum.photos/id/422/800/600",
+      "signalementId": 13
+    },
+    {
+      "id": 23,
+      "url": "https://picsum.photos/id/423/800/600",
+      "signalementId": 13
+    },
+    {
+      "id": 24,
+      "url": "https://picsum.photos/id/424/800/600",
+      "signalementId": 14
+    },
+    {
+      "id": 25,
+      "url": "https://picsum.photos/id/425/800/600",
+      "signalementId": 15
+    },
+    {
+      "id": 26,
+      "url": "https://picsum.photos/id/426/800/600",
+      "signalementId": 15
+    },
+    {
+      "id": 27,
+      "url": "https://picsum.photos/id/427/800/600",
+      "signalementId": 15
+    },
+    {
+      "id": 28,
+      "url": "https://picsum.photos/id/428/800/600",
+      "signalementId": 16
+    },
+    {
+      "id": 29,
+      "url": "https://picsum.photos/id/429/800/600",
+      "signalementId": 17
+    },
+    {
+      "id": 30,
+      "url": "https://picsum.photos/id/430/800/600",
+      "signalementId": 17
+    },
+    {
+      "id": 31,
+      "url": "https://picsum.photos/id/431/800/600",
+      "signalementId": 18
+    },
+    {
+      "id": 32,
+      "url": "https://picsum.photos/id/432/800/600",
+      "signalementId": 18
+    },
+    {
+      "id": 33,
+      "url": "https://picsum.photos/id/433/800/600",
+      "signalementId": 18
+    },
+    {
+      "id": 34,
+      "url": "https://picsum.photos/id/434/800/600",
+      "signalementId": 19
+    },
+    {
+      "id": 35,
+      "url": "https://picsum.photos/id/435/800/600",
+      "signalementId": 20
+    },
+    {
+      "id": 36,
+      "url": "https://picsum.photos/id/436/800/600",
+      "signalementId": 20
+    },
+    {
+      "id": 37,
+      "url": "https://picsum.photos/id/437/800/600",
+      "signalementId": 20
+    },
+    {
+      "id": 38,
+      "url": "https://picsum.photos/id/438/800/600",
+      "signalementId": 21
+    },
+    {
+      "id": 39,
+      "url": "https://picsum.photos/id/439/800/600",
+      "signalementId": 21
+    },
+    {
+      "id": 40,
+      "url": "https://picsum.photos/id/440/800/600",
+      "signalementId": 22
+    },
+    {
+      "id": 41,
+      "url": "https://picsum.photos/id/441/800/600",
+      "signalementId": 22
+    },
+    {
+      "id": 42,
+      "url": "https://picsum.photos/id/442/800/600",
+      "signalementId": 23
+    },
+    {
+      "id": 43,
+      "url": "https://picsum.photos/id/443/800/600",
+      "signalementId": 23
+    },
+    {
+      "id": 44,
+      "url": "https://picsum.photos/id/444/800/600",
+      "signalementId": 23
+    },
+    {
+      "id": 45,
+      "url": "https://picsum.photos/id/445/800/600",
+      "signalementId": 24
+    },
+    {
+      "id": 46,
+      "url": "https://picsum.photos/id/446/800/600",
+      "signalementId": 25
+    },
+    {
+      "id": 47,
+      "url": "https://picsum.photos/id/447/800/600",
+      "signalementId": 25
+    },
+    {
+      "id": 48,
+      "url": "https://picsum.photos/id/448/800/600",
+      "signalementId": 26
+    },
+    {
+      "id": 49,
+      "url": "https://picsum.photos/id/449/800/600",
+      "signalementId": 26
+    },
+    {
+      "id": 50,
+      "url": "https://picsum.photos/id/450/800/600",
+      "signalementId": 26
+    },
+    {
+      "id": 51,
+      "url": "https://picsum.photos/id/451/800/600",
+      "signalementId": 27
+    },
+    {
+      "id": 52,
+      "url": "https://picsum.photos/id/452/800/600",
+      "signalementId": 27
+    },
+    {
+      "id": 53,
+      "url": "https://picsum.photos/id/453/800/600",
+      "signalementId": 27
+    },
+    {
+      "id": 54,
+      "url": "https://picsum.photos/id/454/800/600",
+      "signalementId": 28
+    },
+    {
+      "id": 55,
+      "url": "https://picsum.photos/id/455/800/600",
+      "signalementId": 29
+    },
+    {
+      "id": 56,
+      "url": "https://picsum.photos/id/456/800/600",
+      "signalementId": 29
+    },
+    {
+      "id": 57,
+      "url": "https://picsum.photos/id/457/800/600",
+      "signalementId": 30
+    },
+    {
+      "id": 58,
+      "url": "https://picsum.photos/id/458/800/600",
+      "signalementId": 30
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "message": "Notification 1 pour le signalement 1",
+      "statut": "LU",
+      "date": "2025-09-01T00:00:00",
+      "signalementId": 1,
+      "userId": 10
+    },
+    {
+      "id": 2,
+      "message": "Notification 2 pour le signalement 1",
+      "statut": "NON_LU",
+      "date": "2025-09-01T01:00:00",
+      "signalementId": 1,
+      "userId": 10
+    },
+    {
+      "id": 3,
+      "message": "Notification 3 pour le signalement 1",
+      "statut": "NON_LU",
+      "date": "2025-09-01T02:00:00",
+      "signalementId": 1,
+      "userId": 10
+    },
+    {
+      "id": 4,
+      "message": "Notification 4 pour le signalement 2",
+      "statut": "LU",
+      "date": "2025-09-02T00:00:00",
+      "signalementId": 2,
+      "userId": 7
+    },
+    {
+      "id": 5,
+      "message": "Notification 5 pour le signalement 3",
+      "statut": "NON_LU",
+      "date": "2025-09-03T00:00:00",
+      "signalementId": 3,
+      "userId": 3
+    },
+    {
+      "id": 6,
+      "message": "Notification 6 pour le signalement 3",
+      "statut": "NON_LU",
+      "date": "2025-09-03T01:00:00",
+      "signalementId": 3,
+      "userId": 3
+    },
+    {
+      "id": 7,
+      "message": "Notification 7 pour le signalement 4",
+      "statut": "LU",
+      "date": "2025-09-04T00:00:00",
+      "signalementId": 4,
+      "userId": 9
+    },
+    {
+      "id": 8,
+      "message": "Notification 8 pour le signalement 4",
+      "statut": "LU",
+      "date": "2025-09-04T01:00:00",
+      "signalementId": 4,
+      "userId": 9
+    },
+    {
+      "id": 9,
+      "message": "Notification 9 pour le signalement 4",
+      "statut": "LU",
+      "date": "2025-09-04T02:00:00",
+      "signalementId": 4,
+      "userId": 9
+    },
+    {
+      "id": 10,
+      "message": "Notification 10 pour le signalement 5",
+      "statut": "NON_LU",
+      "date": "2025-09-05T00:00:00",
+      "signalementId": 5,
+      "userId": 3
+    },
+    {
+      "id": 11,
+      "message": "Notification 11 pour le signalement 5",
+      "statut": "LU",
+      "date": "2025-09-05T01:00:00",
+      "signalementId": 5,
+      "userId": 3
+    },
+    {
+      "id": 12,
+      "message": "Notification 12 pour le signalement 5",
+      "statut": "LU",
+      "date": "2025-09-05T02:00:00",
+      "signalementId": 5,
+      "userId": 3
+    },
+    {
+      "id": 13,
+      "message": "Notification 13 pour le signalement 5",
+      "statut": "NON_LU",
+      "date": "2025-09-05T03:00:00",
+      "signalementId": 5,
+      "userId": 3
+    },
+    {
+      "id": 14,
+      "message": "Notification 14 pour le signalement 6",
+      "statut": "NON_LU",
+      "date": "2025-09-06T00:00:00",
+      "signalementId": 6,
+      "userId": 1
+    },
+    {
+      "id": 15,
+      "message": "Notification 15 pour le signalement 6",
+      "statut": "NON_LU",
+      "date": "2025-09-06T01:00:00",
+      "signalementId": 6,
+      "userId": 1
+    },
+    {
+      "id": 16,
+      "message": "Notification 16 pour le signalement 6",
+      "statut": "NON_LU",
+      "date": "2025-09-06T02:00:00",
+      "signalementId": 6,
+      "userId": 1
+    },
+    {
+      "id": 17,
+      "message": "Notification 17 pour le signalement 6",
+      "statut": "NON_LU",
+      "date": "2025-09-06T03:00:00",
+      "signalementId": 6,
+      "userId": 1
+    },
+    {
+      "id": 18,
+      "message": "Notification 18 pour le signalement 7",
+      "statut": "NON_LU",
+      "date": "2025-09-07T00:00:00",
+      "signalementId": 7,
+      "userId": 1
+    },
+    {
+      "id": 19,
+      "message": "Notification 19 pour le signalement 7",
+      "statut": "NON_LU",
+      "date": "2025-09-07T01:00:00",
+      "signalementId": 7,
+      "userId": 1
+    },
+    {
+      "id": 20,
+      "message": "Notification 20 pour le signalement 7",
+      "statut": "LU",
+      "date": "2025-09-07T02:00:00",
+      "signalementId": 7,
+      "userId": 1
+    },
+    {
+      "id": 21,
+      "message": "Notification 21 pour le signalement 8",
+      "statut": "NON_LU",
+      "date": "2025-09-08T00:00:00",
+      "signalementId": 8,
+      "userId": 4
+    },
+    {
+      "id": 22,
+      "message": "Notification 22 pour le signalement 8",
+      "statut": "LU",
+      "date": "2025-09-08T01:00:00",
+      "signalementId": 8,
+      "userId": 4
+    },
+    {
+      "id": 23,
+      "message": "Notification 23 pour le signalement 9",
+      "statut": "LU",
+      "date": "2025-09-09T00:00:00",
+      "signalementId": 9,
+      "userId": 5
+    },
+    {
+      "id": 24,
+      "message": "Notification 24 pour le signalement 9",
+      "statut": "NON_LU",
+      "date": "2025-09-09T01:00:00",
+      "signalementId": 9,
+      "userId": 5
+    },
+    {
+      "id": 25,
+      "message": "Notification 25 pour le signalement 10",
+      "statut": "NON_LU",
+      "date": "2025-09-10T00:00:00",
+      "signalementId": 10,
+      "userId": 2
+    },
+    {
+      "id": 26,
+      "message": "Notification 26 pour le signalement 10",
+      "statut": "LU",
+      "date": "2025-09-10T01:00:00",
+      "signalementId": 10,
+      "userId": 2
+    },
+    {
+      "id": 27,
+      "message": "Notification 27 pour le signalement 10",
+      "statut": "LU",
+      "date": "2025-09-10T02:00:00",
+      "signalementId": 10,
+      "userId": 2
+    },
+    {
+      "id": 28,
+      "message": "Notification 28 pour le signalement 11",
+      "statut": "NON_LU",
+      "date": "2025-09-11T00:00:00",
+      "signalementId": 11,
+      "userId": 1
+    },
+    {
+      "id": 29,
+      "message": "Notification 29 pour le signalement 11",
+      "statut": "LU",
+      "date": "2025-09-11T01:00:00",
+      "signalementId": 11,
+      "userId": 1
+    },
+    {
+      "id": 30,
+      "message": "Notification 30 pour le signalement 11",
+      "statut": "LU",
+      "date": "2025-09-11T02:00:00",
+      "signalementId": 11,
+      "userId": 1
+    },
+    {
+      "id": 31,
+      "message": "Notification 31 pour le signalement 11",
+      "statut": "NON_LU",
+      "date": "2025-09-11T03:00:00",
+      "signalementId": 11,
+      "userId": 1
+    },
+    {
+      "id": 32,
+      "message": "Notification 32 pour le signalement 12",
+      "statut": "LU",
+      "date": "2025-09-12T00:00:00",
+      "signalementId": 12,
+      "userId": 1
+    },
+    {
+      "id": 33,
+      "message": "Notification 33 pour le signalement 12",
+      "statut": "NON_LU",
+      "date": "2025-09-12T01:00:00",
+      "signalementId": 12,
+      "userId": 1
+    },
+    {
+      "id": 34,
+      "message": "Notification 34 pour le signalement 13",
+      "statut": "NON_LU",
+      "date": "2025-09-13T00:00:00",
+      "signalementId": 13,
+      "userId": 8
+    },
+    {
+      "id": 35,
+      "message": "Notification 35 pour le signalement 13",
+      "statut": "NON_LU",
+      "date": "2025-09-13T01:00:00",
+      "signalementId": 13,
+      "userId": 8
+    },
+    {
+      "id": 36,
+      "message": "Notification 36 pour le signalement 13",
+      "statut": "LU",
+      "date": "2025-09-13T02:00:00",
+      "signalementId": 13,
+      "userId": 8
+    },
+    {
+      "id": 37,
+      "message": "Notification 37 pour le signalement 14",
+      "statut": "LU",
+      "date": "2025-09-14T00:00:00",
+      "signalementId": 14,
+      "userId": 5
+    },
+    {
+      "id": 38,
+      "message": "Notification 38 pour le signalement 14",
+      "statut": "LU",
+      "date": "2025-09-14T01:00:00",
+      "signalementId": 14,
+      "userId": 5
+    },
+    {
+      "id": 39,
+      "message": "Notification 39 pour le signalement 14",
+      "statut": "NON_LU",
+      "date": "2025-09-14T02:00:00",
+      "signalementId": 14,
+      "userId": 5
+    },
+    {
+      "id": 40,
+      "message": "Notification 40 pour le signalement 15",
+      "statut": "NON_LU",
+      "date": "2025-09-15T00:00:00",
+      "signalementId": 15,
+      "userId": 2
+    },
+    {
+      "id": 41,
+      "message": "Notification 41 pour le signalement 16",
+      "statut": "NON_LU",
+      "date": "2025-09-16T00:00:00",
+      "signalementId": 16,
+      "userId": 5
+    },
+    {
+      "id": 42,
+      "message": "Notification 42 pour le signalement 16",
+      "statut": "NON_LU",
+      "date": "2025-09-16T01:00:00",
+      "signalementId": 16,
+      "userId": 5
+    },
+    {
+      "id": 43,
+      "message": "Notification 43 pour le signalement 16",
+      "statut": "NON_LU",
+      "date": "2025-09-16T02:00:00",
+      "signalementId": 16,
+      "userId": 5
+    },
+    {
+      "id": 44,
+      "message": "Notification 44 pour le signalement 17",
+      "statut": "NON_LU",
+      "date": "2025-09-17T00:00:00",
+      "signalementId": 17,
+      "userId": 7
+    },
+    {
+      "id": 45,
+      "message": "Notification 45 pour le signalement 17",
+      "statut": "NON_LU",
+      "date": "2025-09-17T01:00:00",
+      "signalementId": 17,
+      "userId": 7
+    },
+    {
+      "id": 46,
+      "message": "Notification 46 pour le signalement 17",
+      "statut": "NON_LU",
+      "date": "2025-09-17T02:00:00",
+      "signalementId": 17,
+      "userId": 7
+    },
+    {
+      "id": 47,
+      "message": "Notification 47 pour le signalement 17",
+      "statut": "LU",
+      "date": "2025-09-17T03:00:00",
+      "signalementId": 17,
+      "userId": 7
+    },
+    {
+      "id": 48,
+      "message": "Notification 48 pour le signalement 18",
+      "statut": "LU",
+      "date": "2025-09-18T00:00:00",
+      "signalementId": 18,
+      "userId": 5
+    },
+    {
+      "id": 49,
+      "message": "Notification 49 pour le signalement 18",
+      "statut": "NON_LU",
+      "date": "2025-09-18T01:00:00",
+      "signalementId": 18,
+      "userId": 5
+    },
+    {
+      "id": 50,
+      "message": "Notification 50 pour le signalement 18",
+      "statut": "LU",
+      "date": "2025-09-18T02:00:00",
+      "signalementId": 18,
+      "userId": 5
+    },
+    {
+      "id": 51,
+      "message": "Notification 51 pour le signalement 19",
+      "statut": "NON_LU",
+      "date": "2025-09-19T00:00:00",
+      "signalementId": 19,
+      "userId": 8
+    },
+    {
+      "id": 52,
+      "message": "Notification 52 pour le signalement 19",
+      "statut": "NON_LU",
+      "date": "2025-09-19T01:00:00",
+      "signalementId": 19,
+      "userId": 8
+    },
+    {
+      "id": 53,
+      "message": "Notification 53 pour le signalement 19",
+      "statut": "NON_LU",
+      "date": "2025-09-19T02:00:00",
+      "signalementId": 19,
+      "userId": 8
+    },
+    {
+      "id": 54,
+      "message": "Notification 54 pour le signalement 19",
+      "statut": "LU",
+      "date": "2025-09-19T03:00:00",
+      "signalementId": 19,
+      "userId": 8
+    },
+    {
+      "id": 55,
+      "message": "Notification 55 pour le signalement 20",
+      "statut": "LU",
+      "date": "2025-09-20T00:00:00",
+      "signalementId": 20,
+      "userId": 6
+    },
+    {
+      "id": 56,
+      "message": "Notification 56 pour le signalement 20",
+      "statut": "LU",
+      "date": "2025-09-20T01:00:00",
+      "signalementId": 20,
+      "userId": 6
+    },
+    {
+      "id": 57,
+      "message": "Notification 57 pour le signalement 20",
+      "statut": "LU",
+      "date": "2025-09-20T02:00:00",
+      "signalementId": 20,
+      "userId": 6
+    },
+    {
+      "id": 58,
+      "message": "Notification 58 pour le signalement 20",
+      "statut": "LU",
+      "date": "2025-09-20T03:00:00",
+      "signalementId": 20,
+      "userId": 6
+    },
+    {
+      "id": 59,
+      "message": "Notification 59 pour le signalement 21",
+      "statut": "NON_LU",
+      "date": "2025-09-21T00:00:00",
+      "signalementId": 21,
+      "userId": 10
+    },
+    {
+      "id": 60,
+      "message": "Notification 60 pour le signalement 21",
+      "statut": "LU",
+      "date": "2025-09-21T01:00:00",
+      "signalementId": 21,
+      "userId": 10
+    },
+    {
+      "id": 61,
+      "message": "Notification 61 pour le signalement 21",
+      "statut": "LU",
+      "date": "2025-09-21T02:00:00",
+      "signalementId": 21,
+      "userId": 10
+    },
+    {
+      "id": 62,
+      "message": "Notification 62 pour le signalement 21",
+      "statut": "NON_LU",
+      "date": "2025-09-21T03:00:00",
+      "signalementId": 21,
+      "userId": 10
+    },
+    {
+      "id": 63,
+      "message": "Notification 63 pour le signalement 22",
+      "statut": "LU",
+      "date": "2025-09-22T00:00:00",
+      "signalementId": 22,
+      "userId": 7
+    },
+    {
+      "id": 64,
+      "message": "Notification 64 pour le signalement 22",
+      "statut": "NON_LU",
+      "date": "2025-09-22T01:00:00",
+      "signalementId": 22,
+      "userId": 7
+    },
+    {
+      "id": 65,
+      "message": "Notification 65 pour le signalement 22",
+      "statut": "LU",
+      "date": "2025-09-22T02:00:00",
+      "signalementId": 22,
+      "userId": 7
+    },
+    {
+      "id": 66,
+      "message": "Notification 66 pour le signalement 23",
+      "statut": "NON_LU",
+      "date": "2025-09-23T00:00:00",
+      "signalementId": 23,
+      "userId": 3
+    },
+    {
+      "id": 67,
+      "message": "Notification 67 pour le signalement 23",
+      "statut": "NON_LU",
+      "date": "2025-09-23T01:00:00",
+      "signalementId": 23,
+      "userId": 3
+    },
+    {
+      "id": 68,
+      "message": "Notification 68 pour le signalement 23",
+      "statut": "LU",
+      "date": "2025-09-23T02:00:00",
+      "signalementId": 23,
+      "userId": 3
+    },
+    {
+      "id": 69,
+      "message": "Notification 69 pour le signalement 24",
+      "statut": "LU",
+      "date": "2025-09-24T00:00:00",
+      "signalementId": 24,
+      "userId": 10
+    },
+    {
+      "id": 70,
+      "message": "Notification 70 pour le signalement 24",
+      "statut": "NON_LU",
+      "date": "2025-09-24T01:00:00",
+      "signalementId": 24,
+      "userId": 10
+    },
+    {
+      "id": 71,
+      "message": "Notification 71 pour le signalement 24",
+      "statut": "NON_LU",
+      "date": "2025-09-24T02:00:00",
+      "signalementId": 24,
+      "userId": 10
+    },
+    {
+      "id": 72,
+      "message": "Notification 72 pour le signalement 25",
+      "statut": "LU",
+      "date": "2025-09-25T00:00:00",
+      "signalementId": 25,
+      "userId": 2
+    },
+    {
+      "id": 73,
+      "message": "Notification 73 pour le signalement 25",
+      "statut": "LU",
+      "date": "2025-09-25T01:00:00",
+      "signalementId": 25,
+      "userId": 2
+    },
+    {
+      "id": 74,
+      "message": "Notification 74 pour le signalement 25",
+      "statut": "LU",
+      "date": "2025-09-25T02:00:00",
+      "signalementId": 25,
+      "userId": 2
+    },
+    {
+      "id": 75,
+      "message": "Notification 75 pour le signalement 25",
+      "statut": "NON_LU",
+      "date": "2025-09-25T03:00:00",
+      "signalementId": 25,
+      "userId": 2
+    },
+    {
+      "id": 76,
+      "message": "Notification 76 pour le signalement 26",
+      "statut": "LU",
+      "date": "2025-09-26T00:00:00",
+      "signalementId": 26,
+      "userId": 3
+    },
+    {
+      "id": 77,
+      "message": "Notification 77 pour le signalement 27",
+      "statut": "LU",
+      "date": "2025-09-27T00:00:00",
+      "signalementId": 27,
+      "userId": 9
+    },
+    {
+      "id": 78,
+      "message": "Notification 78 pour le signalement 27",
+      "statut": "NON_LU",
+      "date": "2025-09-27T01:00:00",
+      "signalementId": 27,
+      "userId": 9
+    },
+    {
+      "id": 79,
+      "message": "Notification 79 pour le signalement 27",
+      "statut": "NON_LU",
+      "date": "2025-09-27T02:00:00",
+      "signalementId": 27,
+      "userId": 9
+    },
+    {
+      "id": 80,
+      "message": "Notification 80 pour le signalement 27",
+      "statut": "NON_LU",
+      "date": "2025-09-27T03:00:00",
+      "signalementId": 27,
+      "userId": 9
+    },
+    {
+      "id": 81,
+      "message": "Notification 81 pour le signalement 28",
+      "statut": "NON_LU",
+      "date": "2025-09-28T00:00:00",
+      "signalementId": 28,
+      "userId": 7
+    },
+    {
+      "id": 82,
+      "message": "Notification 82 pour le signalement 28",
+      "statut": "LU",
+      "date": "2025-09-28T01:00:00",
+      "signalementId": 28,
+      "userId": 7
+    },
+    {
+      "id": 83,
+      "message": "Notification 83 pour le signalement 28",
+      "statut": "LU",
+      "date": "2025-09-28T02:00:00",
+      "signalementId": 28,
+      "userId": 7
+    },
+    {
+      "id": 84,
+      "message": "Notification 84 pour le signalement 29",
+      "statut": "LU",
+      "date": "2025-09-29T00:00:00",
+      "signalementId": 29,
+      "userId": 5
+    },
+    {
+      "id": 85,
+      "message": "Notification 85 pour le signalement 30",
+      "statut": "LU",
+      "date": "2025-09-30T00:00:00",
+      "signalementId": 30,
+      "userId": 6
+    },
+    {
+      "id": 86,
+      "message": "Notification 86 pour le signalement 30",
+      "statut": "NON_LU",
+      "date": "2025-09-30T01:00:00",
+      "signalementId": 30,
+      "userId": 6
+    },
+    {
+      "id": 87,
+      "message": "Notification 87 pour le signalement 30",
+      "statut": "NON_LU",
+      "date": "2025-09-30T02:00:00",
+      "signalementId": 30,
+      "userId": 6
+    }
+  ],
+  "tr_agentSignalement": [
+    {
+      "id": 1,
+      "idSignalement": 1,
+      "idAgent": 12,
+      "date": "2025-09-01T02:00:00"
+    },
+    {
+      "id": 2,
+      "idSignalement": 2,
+      "idAgent": 15,
+      "date": "2025-09-02T02:00:00"
+    },
+    {
+      "id": 3,
+      "idSignalement": 3,
+      "idAgent": 11,
+      "date": "2025-09-03T02:00:00"
+    },
+    {
+      "id": 4,
+      "idSignalement": 4,
+      "idAgent": 14,
+      "date": "2025-09-04T02:00:00"
+    },
+    {
+      "id": 5,
+      "idSignalement": 5,
+      "idAgent": 14,
+      "date": "2025-09-05T02:00:00"
+    },
+    {
+      "id": 6,
+      "idSignalement": 6,
+      "idAgent": 15,
+      "date": "2025-09-06T02:00:00"
+    },
+    {
+      "id": 7,
+      "idSignalement": 7,
+      "idAgent": 11,
+      "date": "2025-09-07T02:00:00"
+    },
+    {
+      "id": 8,
+      "idSignalement": 8,
+      "idAgent": 15,
+      "date": "2025-09-08T02:00:00"
+    },
+    {
+      "id": 9,
+      "idSignalement": 9,
+      "idAgent": 15,
+      "date": "2025-09-09T02:00:00"
+    },
+    {
+      "id": 10,
+      "idSignalement": 10,
+      "idAgent": 15,
+      "date": "2025-09-10T02:00:00"
+    },
+    {
+      "id": 11,
+      "idSignalement": 11,
+      "idAgent": 15,
+      "date": "2025-09-11T02:00:00"
+    },
+    {
+      "id": 12,
+      "idSignalement": 12,
+      "idAgent": 14,
+      "date": "2025-09-12T02:00:00"
+    },
+    {
+      "id": 13,
+      "idSignalement": 13,
+      "idAgent": 15,
+      "date": "2025-09-13T02:00:00"
+    },
+    {
+      "id": 14,
+      "idSignalement": 14,
+      "idAgent": 13,
+      "date": "2025-09-14T02:00:00"
+    },
+    {
+      "id": 15,
+      "idSignalement": 15,
+      "idAgent": 13,
+      "date": "2025-09-15T02:00:00"
+    },
+    {
+      "id": 16,
+      "idSignalement": 16,
+      "idAgent": 15,
+      "date": "2025-09-16T02:00:00"
+    },
+    {
+      "id": 17,
+      "idSignalement": 17,
+      "idAgent": 13,
+      "date": "2025-09-17T02:00:00"
+    },
+    {
+      "id": 18,
+      "idSignalement": 18,
+      "idAgent": 11,
+      "date": "2025-09-18T02:00:00"
+    },
+    {
+      "id": 19,
+      "idSignalement": 19,
+      "idAgent": 14,
+      "date": "2025-09-19T02:00:00"
+    },
+    {
+      "id": 20,
+      "idSignalement": 20,
+      "idAgent": 12,
+      "date": "2025-09-20T02:00:00"
+    },
+    {
+      "id": 21,
+      "idSignalement": 21,
+      "idAgent": 14,
+      "date": "2025-09-21T02:00:00"
+    },
+    {
+      "id": 22,
+      "idSignalement": 22,
+      "idAgent": 14,
+      "date": "2025-09-22T02:00:00"
+    },
+    {
+      "id": 23,
+      "idSignalement": 23,
+      "idAgent": 12,
+      "date": "2025-09-23T02:00:00"
+    },
+    {
+      "id": 24,
+      "idSignalement": 24,
+      "idAgent": 15,
+      "date": "2025-09-24T02:00:00"
+    },
+    {
+      "id": 25,
+      "idSignalement": 25,
+      "idAgent": 13,
+      "date": "2025-09-25T02:00:00"
+    },
+    {
+      "id": 26,
+      "idSignalement": 26,
+      "idAgent": 12,
+      "date": "2025-09-26T02:00:00"
+    },
+    {
+      "id": 27,
+      "idSignalement": 27,
+      "idAgent": 13,
+      "date": "2025-09-27T02:00:00"
+    },
+    {
+      "id": 28,
+      "idSignalement": 28,
+      "idAgent": 14,
+      "date": "2025-09-28T02:00:00"
+    },
+    {
+      "id": 29,
+      "idSignalement": 29,
+      "idAgent": 15,
+      "date": "2025-09-29T02:00:00"
+    },
+    {
+      "id": 30,
+      "idSignalement": 30,
+      "idAgent": 15,
+      "date": "2025-09-30T02:00:00"
+    }
+  ]
+}
