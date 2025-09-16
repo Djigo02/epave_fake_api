@@ -1,25 +1,15 @@
 {
-  "name": "epave_fake_api",
+  "name": "back_epave",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "description": "API mock epave via json-server",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Djigo02/epave_fake_api.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Djigo02/epave_fake_api/issues"
-  },
-  "homepage": "https://github.com/Djigo02/epave_fake_api#readme",
-  "description": "",
   "dependencies": {
-    "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
-    "json-server": "^1.0.0-beta.3"
+    "json-server": "^0.17.4"
   }
 }
