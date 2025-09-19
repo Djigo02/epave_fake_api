@@ -1,4 +1,119 @@
 {
+  "user": [
+    {
+      "id": 1,
+      "scenario": "success",
+      "request": {
+        "email": "admin1@example.com",
+        "password": "passer",
+        "remember_me": false
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "access_token": "fake-jwt-123",
+          "token_type": "Bearer",
+          "user": {
+            "id": 1,
+            "name": "Citoyen 1",
+            "email": "citoyen1@example.com",
+            "roles": [{ "id": 3, "libelle": "ADMIN" }],
+            "privileges": [
+              { "code": "VIEW_SIGNALMENTS" },
+              { "code": "CREATE_SIGNALMENT" },
+              { "code": "UPLOAD_IMAGE" },
+              { "code": "COMMENT" }
+            ]
+          },
+          "expires_in": 3600
+        }
+      }
+    },
+    {
+      "id": 2,
+      "scenario": "success_remember",
+      "request": {
+        "email": "citoyen1@example.com",
+        "password": "passer",
+        "remember_me": true
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "access_token": "fake-jwt-remember-456",
+          "token_type": "Bearer",
+          "refresh_token": "fake-refresh-xyz789",
+          "user": {
+            "id": 1,
+            "name": "Citoyen 1",
+            "email": "citoyen1@example.com",
+            "roles": [{ "id": 1, "libelle": "CITOYEN" }],
+            "privileges": [
+              { "code": "VIEW_SIGNALMENTS" },
+              { "code": "CREATE_SIGNALMENT" },
+              { "code": "UPLOAD_IMAGE" },
+              { "code": "COMMENT" }
+            ]
+          },
+          "expires_in": 1209600
+        }
+      }
+    },
+    {
+      "id": 3,
+      "scenario": "invalid_credentials",
+      "request": {
+        "email": "invalid@example.com",
+        "password": "wrong",
+        "remember_me": false
+      },
+      "response": {
+        "status": 401,
+        "body": { "error": "Identifiants invalides" }
+      }
+    },
+    {
+      "id": 4,
+      "scenario": "email_not_verified",
+      "request": {
+        "email": "verify@example.com",
+        "password": "pwd_verify",
+        "remember_me": false
+      },
+      "response": {
+        "status": 403,
+        "body": {
+          "message": "Veuillez vérifier votre email avant de vous connecter."
+        }
+      }
+    },
+    {
+      "id": 5,
+      "scenario": "account_blocked",
+      "request": {
+        "email": "blocked@example.com",
+        "password": "pwd_blocked",
+        "remember_me": false
+      },
+      "response": {
+        "status": 403,
+        "body": { "message": "Votre compte est bloqué." }
+      }
+    },
+    {
+      "id": 6,
+      "scenario": "server_error",
+      "request": {
+        "email": "servererror@example.com",
+        "password": "pwd_500",
+        "remember_me": false
+      },
+      "response": {
+        "status": 500,
+        "body": { "error": "Erreur lors de la tentative de connexion." }
+      }
+    }
+  ],
   "roles": [
     {
       "id": 1,
